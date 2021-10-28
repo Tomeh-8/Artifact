@@ -1,0 +1,131 @@
+.benefit-root {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 770px) {
+    flex-direction: column;
+    margin-top: -5rem;
+  }
+}
+
+.first-div {
+  margin: 3rem 0;
+  display: flex;
+
+  @media screen and (max-width: 770px) {
+    flex-direction: column;
+  }
+
+  .img-part {
+    background: lightblue;
+    flex-basis: 40%;
+    
+    @media screen and (max-width: 1050px) {
+      flex-basis: 40%;
+      margin: 2rem auto;
+    }
+
+    @media screen and (max-width: 770px) {
+      flex-basis: 100%;
+      margin: 2rem auto;
+    }
+
+    img {
+      width: 30rem;
+      height: 28rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+
+      @media screen and (max-width: 1050px) {
+        width: 20rem;
+        height: 18rem;
+      }
+
+      @media screen and (max-width: 770px) {
+        width: 20rem;
+        height: 18rem;
+      }
+    }
+  }
+
+  .text-part {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+
+    @media screen and (max-width: 770px) {
+      flex-basis: 100%;
+      padding-left: 1.8rem;
+      font-size: 1rem;
+    }
+  }
+}
+
+.second-div {
+  margin: 5rem 0 3rem;
+  display: flex;
+
+  
+  @media screen and (max-width: 770px) {
+    flex-direction:column-reverse !important;
+  }
+  .img-part {
+    background: lightblue;
+    flex-basis: 40%;
+
+    @media screen and (max-width: 1050px) {
+      flex-basis: 40%;
+      margin: 2rem auto;
+    }
+
+    @media screen and (max-width: 770px) {
+      margin: 2rem auto;
+    }
+    img {
+      width: 30rem;
+      height: 28rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      
+      @media screen and (max-width: 1050px) {
+        width: 20rem;
+        height: 18rem;
+      }
+      @media screen and (max-width: 770px) {
+        width: 55rem;
+        height: 18rem;
+      }
+
+      @media screen and (max-width: 450px) {
+        width: 20rem;
+        height: 18rem;
+      }
+    }
+  }
+
+  .text-part {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    padding-right: 3rem;
+
+    @media screen and (max-width: 770px) {
+      flex-basis: 100%;
+      padding-left: 1.8rem;
+      font-size: 1rem;
+    }
+  }
+}

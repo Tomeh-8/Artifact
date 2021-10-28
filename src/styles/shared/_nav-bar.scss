@@ -1,0 +1,26 @@
+.nav-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo-div {
+    margin-top: 0.5rem;
+    img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 20%;
+    }
+  }
+
+  .menu-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

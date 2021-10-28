@@ -1,0 +1,40 @@
+
+.footer {
+  color: white;
+  font-size: 1.2rem;
+  min-width: 100%;
+  text-align: center;
+  margin: 10rem auto 3rem;
+
+  @media screen and (max-width: 0px) {
+    font-size: 0.9rem;
+    margin: -10rem auto 2rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 0.9rem;
+    margin: 6rem auto 2rem;
+  }
+
+  
+}
+
+.footer-list  {
+
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: -150px auto 100px;
+
+  @media screen and (max-width: 770px) {
+    margin: -90px auto 100px;
+   }
+
+   @media screen and (max-width: 0px) {
+    margin: -90px auto 100px;
+   }
+}
+
+.footer-list li{
+  margin-right: 15px;
+}
